@@ -1,0 +1,46 @@
+.hs-data-reservation {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px 10px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+ 
+  &--form-group {
+    margin-bottom: 8px;
+  
+    label {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 14px;
+      line-height: 18px;
+      color: #2E2F32;
+      font-weight: 400;
+      text-align: left;
+    }
+    
+    input, select {
+      width: 100%;
+      height: 40px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-sizing: border-box;
+      font-size: 1em;
+    }
+  }
+  &--btn {
+    width: 100%;
+    height: 40px;
+    background-color: #40b53c;
+    color: #FFFF;
+    font-size: 16px;
+    list-style: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #6dcf6a;
+    }
+  } 
+}
+  

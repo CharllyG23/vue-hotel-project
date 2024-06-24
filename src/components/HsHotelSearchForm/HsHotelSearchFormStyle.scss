@@ -1,0 +1,105 @@
+.hs-hotel-search-form {
+    display: flex;
+    align-items: center;
+    background-color: #FFFF;
+    padding-bottom: 30px;
+
+    &--form {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 20px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 4px 8px 10px 4px rgba(2, 2, 31, 0.2);
+        gap: 8px;
+        font-size: 14px;
+        line-height: 16px;
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 4px 0;
+            height: 40px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-sizing: border-box;
+            color: rgb(2, 4, 19);
+            cursor: pointer;
+
+            &:hover {
+                background-color: #f3f4f5;
+            }
+
+            &.is-invalid {
+                border-color: red;
+            }
+        }
+
+        &__button {
+            display: flex;
+            align-items: center;
+						justify-content: center;
+            background-color: #4B02EF;
+            padding: 20px;
+						width: 100%;
+            gap: 8px;
+            height: 40px;
+            color: #FFFF;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #5c4efa;
+            }
+        }
+        .error-message {
+            color: red;
+            font-size: 0.700em;
+            display: block;
+            position: absolute;
+        }
+
+        .hs-input-large {
+            width: 300px;
+        }
+
+        .hs-input-small {
+            width: 100px
+        }
+
+        .hs-button {
+            padding-top: 18px;
+        }
+    }
+}
+
+@media (max-width:1000px) {
+	.hs-hotel-search-form {
+		padding: 20px;
+
+		&--form {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			width: 100%;
+		}
+
+		div {
+			width: 100%;
+		}
+
+		.hs-input-large {
+			width: 100%;
+		}
+
+		.hs-input-small {
+			width: 100%
+		}
+	}
+}

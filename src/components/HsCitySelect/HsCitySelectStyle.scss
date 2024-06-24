@@ -1,0 +1,28 @@
+.hs-city-select {
+    display: flex;
+    flex-direction: column;
+
+	label {
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+
+  select {
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: rgb(2, 4, 19);
+    cursor: pointer;
+
+    &:hover {
+      background-color: #f3f4f5;
+    }
+
+    &.is-invalid {
+      border-color: red;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.home-views {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    color: rgb(2, 6, 17);
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #FFFF;
+    padding-bottom: 40px;
+
+    &--subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        color: rgb(50, 58, 79);
+        letter-spacing: 0;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+.hs-search-results {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+	.home-views { 
+    font-size: 18px;
+    line-height: 28px;
+  }
+}

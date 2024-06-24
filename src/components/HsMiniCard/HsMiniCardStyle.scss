@@ -1,0 +1,37 @@
+.hs-mini-card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 180px;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  
+  &--img {
+    width: 185px;
+    height: 120px;
+    object-fit: cover;
+  }
+
+  &--content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  &--description {
+    margin: 4px 0;
+    font-size: 0.9em;
+    color: #666;
+  }
+}  
